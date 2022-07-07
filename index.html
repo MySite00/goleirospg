@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <title>Goleiros de Aluguel PG</title>
 </head>
-<body>
     <header>
-        <h1>Seja bem vindo ao alugel de goleiros</h1>
-    </header>
-</body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">GOLEIRO DE ALUGUEL</a>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </header>
+    <div class="principal">
+        <div style="text-align: center;">
+            <h2>Encontre aqui os melhores goleiros da região</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-sm">
+            <img class="imagemGoleiro" src="img/goleiro_1.jpg" alt="">
+        </div>
+        <div class="col-sm-6">
+            <h3>Nome: Fulano de tal</h3>
+            <p>status : Disponivel <img style="width: 25px; height: 25px;" src="img/v_verde.png" alt="disponivel"></p>
+            <p>Especialidade: Futsal</p>
+            <p>Avaliação : 4.5/5 <img style="height: 25px;" src="img/avaliacao_4-5.jpg" alt="avaliacao"></p>
+            <p>Controle com os pés : 4.5/5 <img style="height: 25px;" src="img/avaliacao_4-5.jpg" alt="avaliacao"></p>
+        </div>
+        <div>
+            <div class="col-sm">
+                <button class="btn2">Favorito</button>
+            </div>
+        </div>
+    </div>
 </html>
+
