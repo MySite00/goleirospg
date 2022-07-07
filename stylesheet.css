@@ -39,3 +39,13 @@ p{
     height: 20px;
     width: 20px;
 }
+
+.div_video{
+    background-color: red;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
