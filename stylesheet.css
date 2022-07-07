@@ -10,9 +10,11 @@
     background-size: cover;
 }
 
-.container{
+.div_jogador{
     background-color: rgba(255, 255, 255, 0.61);
     border-radius: 5px;
+    text-align: left;
+    margin-top: 10px;
 }
 
 h3{
@@ -26,4 +28,14 @@ p{
 .imagemGoleiro{
     border-radius: 4px;
     margin: 5px 5px 5px 5px;
+}
+
+.btn_jogador_opcao{
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+}
+
+.img_social{
+    height: 20px;
+    width: 20px;
 }
